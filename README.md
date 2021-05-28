@@ -1,7 +1,3 @@
 # SpotRec: A Spotify Recommendation System
 
-## Initial Proposal
-[Google Slide link](https://docs.google.com/presentation/d/1RGYpjtDMAhEX7Jxk0eUikWdwyiy0oA2PlTqgBcZD5Yo/edit?usp=sharing)
-
-## Milestone Report
-[Report](Milestone-Report.pdf)
+A Spotify Song Recommendation System that utilizes both content-based filtering and collaborative filtering. The recommendation system provides the user the opportunity to select what audio feature of the song they prefer in order to provide a more personal song recommendation.
