@@ -27,6 +27,7 @@ Here is a bar graph showing some of the top tracks, albums, and artists in the M
 ![Playlist_Top](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Playlist_Top.JPG) 
 
 Audio Features make up most of the metadata for the 160K Track Playlist. Here are the histograms of all the audio features in the dataset:
+
 ![Histo](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Spotify_Histogram.JPG)
 
 ## Results
