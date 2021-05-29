@@ -23,6 +23,7 @@ Here are some plots to show the distribution of the MPD metadata:
 ![Playlist_Histo](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Playlist_Histo.JPG)
 
 Here is a bar graph showing some of the top tracks, albums, and artists in the MPD dataset:
+
 ![Playlist_Top](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Playlist_Top.JPG) 
 
 Audio Features make up most of the metadata for the 160K Track Playlist. Here are the histograms of all the audio features in the dataset:
