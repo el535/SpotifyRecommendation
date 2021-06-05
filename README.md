@@ -18,15 +18,15 @@ The 160K Track playlist is collected using the Spotify API. This dataset consist
 - Audio Features: Acousticness, Danceability, Energy, Duration (ms), Instrumentalness, Valence, Tempo, Liveness, Loudness, Speechiness, Key, Mode, Song Key, and Explicit Content
 
 ## EDA
-Here are some plots to show the distribution of the MPD metadata:
+In order to get a better sense of each of the datasets, Exploratory Data Analyis is performed. Some statistics about the MPD dataset are shown below:
+
 ![Playlist Bar](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Playlist_info.JPG)
 ![Playlist_Histo](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Playlist_Histo.JPG)
-
-Here is a bar graph showing some of the top tracks, albums, and artists in the MPD dataset:
-
 ![Playlist_Top](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Playlist_Top.JPG) 
 
-Audio Features make up most of the metadata for the 160K Track Playlist. Here are the histograms of all the audio features in the dataset:
+Two interesting things to note about the dataset are that the number of albums, artists and tracks are all postively skewed and that there are quite a few outliers in number of albums, artists and tracks in a playlist. Steps are taken during preprocessing the data in order to handle the outliers. 
+
+Audio Features make up most of the metadata for the 160K Track Playlist. Here are the normalized histograms of all the audio features in the dataset:
 
 ![Histo](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Spotify_Histogram.JPG)
 
@@ -49,7 +49,7 @@ Here are some sample outputs of the combined recommendation system:
 ![Combined](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Combined_Recs.JPG)
 
 ## Evaluation
-To quantify how well the recommendation system work, R-precision value is used. R-precision values are shown here:
+To quantify how well the recommendation system work, R-precision value is used. R-precision is the proportion of the top-R retrieved songs that are relevant for a playlist, where R is the number of relevant songs for the current query. Precision@k is also looked at, where Prcision@k is the number of relevant results among the top k retrieved songs. 
 ![R-precision](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Precision.JPG)
 
 ## UI
