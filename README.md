@@ -39,7 +39,7 @@ Here are some sample outputs of the collaborative filtering part:
 Here are some sample outputs of the content-based filtering part:
 ![Content_Filtering_Recs](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Content_Recs.JPG)
 
-Weights on audio features are implemented to allow the user to have more control over the recommendations. Here are some sample outputs for the same input as before, but with different audio feature weights:
+Weights on audio features are implemented to allow the user to have more control over the recommendations. A higher weight on an audio feature indicates that the user wants song recommendations that have a similar audio feature value to the input song.  Here are some sample outputs for the same input as before, but with different audio feature weights:
 ![Content_Filtering_Weights](https://github.com/el535/SpotifyRecommendation/blob/main/Project_Images/Content_Recs_Weights.JPG)
 
 In order to combine the collaborative filtering part and the content-based filtering part, an 'alpha' weight is assigned to control how much of each part is used in the combined recommendation system. Here, a high value of alpha means that the recommendations are more influcenced by the collaborative filtering recommendations while a low value of alpha means that the recommendations are more influcenced by the conted-based filtering recommendations. The alpha weight value is deturmined by the highest R-precision value of the recommender system per alpha value, deturmined to be more weighted towards the collaborative filtering part:
